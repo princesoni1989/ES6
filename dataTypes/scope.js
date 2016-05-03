@@ -10,7 +10,7 @@ if(true){
   let y =100
 }
 //Eror y is not defined
-console.log(y)
+//console.log(y)
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
 
@@ -33,10 +33,12 @@ console.log(callbacks[2]() === 4)
  console.log(callbacks[0] === 0)
  console.log(callbacks[1] === 2)
  console.log(callbacks[2] === 4)
+*/
 
- */
 
+const ARRAY = [1,2,3,4,5];
 
+const ARRAY2 = [5,6,7,8,9,0];
 
 
 

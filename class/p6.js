@@ -3,13 +3,31 @@
  */
 
 var Person = class  {
-    constructor(name) {
-        this.name = name;
-    }
+  constructor(name) {
+    this.name = name;
+  }
 
-    static getName() {
-        console.log("name of the person " , this.name);
-    }
+  static getName() {
+    console.log("name of the person " , this.name);
+  }
 }
 Person.getName();
 
+/*
+ var Person = class  {
+
+ constructor(name) {
+ this.name = name;
+ }
+
+ */
+/*static*//*
+ getName() {
+ console.log("name of the person " , this.name);
+ }
+ }
+ //Person.getName();
+
+ var obj = new Person('akash');
+
+ obj.getName();*/

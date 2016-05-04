@@ -6,7 +6,7 @@ var x = function (a) {
 }
 
 var x = a => {
-    console.log("oher thing");
+    console.log("other thing");
     return a;
 }
 x()
